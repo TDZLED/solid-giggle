@@ -1,0 +1,84 @@
+@media screen and (max-width:320px)
+
+{
+
+
+
+    #logo
+
+    {
+    
+    height: 30px;
+    left: 5%;
+    top: 35%
+
+    }
+
+    .menu_haut
+
+    {
+
+    line-height: 1.5em;
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    }
+
+    .bouton_accueil:hover, .bouton_services:hover, .bouton_portfolio:hover, .bouton_contact:hover
+
+    {
+
+        border:none;
+
+    }
+
+    .bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
+
+    {
+
+        border:none;
+
+    }
+
+
+
+
+
+    
+
+    
+
+}
+
+@media screen and (min-width:1600px)
+
+{
+
+
+    .figure1
+
+    {
+
+        width:20%;
+        height:auto;
+
+    }
+
+    .texte_figure1
+
+    {
+        
+        height:33%;
+
+    }
+
+    .tfig1
+
+    {
+
+        top:25%;
+
+    }
+}
