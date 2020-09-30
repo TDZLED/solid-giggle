@@ -1,9 +1,67 @@
-@media (max-width:376px)
+@media (max-width:600px) 
 
 {
 
 
+  @font-face
 
+  {
+  
+      font-family:"Roboto-Black-Light";
+      src:url("fonts/Roboto-Light.ttf") format("truetype");
+  }
+
+  body
+
+
+  {
+    font-family:"Roboto-Black-Light";
+    
+
+  }
+
+  #services_image
+
+
+  {
+
+    display:none;
+
+  }
+
+  .formulaire_contact {
+
+    
+    font-family:"Roboto-Black-Light";
+
+    
+
+}
+
+
+
+  .bouton_infos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+
+
+.bouton_infos {
+  font-weight: normal;
+}
+
+.bouton_envoyer {
+  font-family: "Roboto-Black-Light";
+  font-size: 0.5em;
+}
+
+
+
+
+  
 
 
     #logo
@@ -44,11 +102,11 @@
 
     }
 
-    #enfant1
+    #image_slider
 
     {
 
-        visibility: hidden;
+        display: none;
 
     }
 
@@ -60,14 +118,16 @@
         color: black;
     }
 
-    .Texte_Accueil
+    .texte_accueil
 
     {
 
         top: 50%;
-        left: 4%;
+        left:0;
         width: 100%;
         font-size: 0.5em;
+        position:static;
+        text-align:center;
 
     }
 
@@ -75,49 +135,60 @@
 
     {
 
-        visibility: hidden;
+        display:none;
 
     }
 
 
+/* Webagency.css | file:///C:/Users/Thomas/Desktop/Webagency.css */
 
-@media (max-width: 376px) {
+.menu_projets {
+  /* width: 380px; */
+  width: 100%;
+}
+
+
+
+
     .agence_texte, .agence_texte2 {
       font-size: 1.5em;
     }
-  }
+  
   
   
   .SERVICES_Titre, .PROJETS_Titre {
     font-size: 1em;
   }
   
-  .Text_Services, .Text_Projets {
+  .text_services, .texte_projets {
     font-size: 0.8em;
   }
   
-  .Texte1, .Texte2, .Texte3 {
+  .texte1, .texte2, .texte3 {
     font-size: 0.8em;
-    width: 100%;
+    width: 80%;
+    padding-left:100px;
+  }
+
+  .description1, .description2, .description3
+  {
+    padding-left:100px;
   }
   
-  #Services_Image {
-    padding-left: 8%;
-    height: 200px;
-  }
   
-  .Bloc_Droite {
+  
+  .bloc_droite {
     padding-left:0%;
   }
   
   
-  .UX_Design {
+  .ux_design {
     
     padding-left: 5px; 
   }
   
   
-  .UX_Design > div:nth-child(2) {
+  .ux_design > div:nth-child(2) {
 
     margin-top: 50px;
   }
@@ -133,7 +204,7 @@
   }
   
   
-  .SEO > div:nth-child(2) {
+  .seo > div:nth-child(2) {
     margin-top: 50px;
   }
   
@@ -144,11 +215,11 @@
   }
   
   
-  .UI_Design > div:nth-child(2) {
+  .ui_design > div:nth-child(2) {
     margin-top: 50px;
   }
   
-  .UI_Design, .SEO, .UX_Design {
+  .ui_design, .seo, .ux_design {
 
     padding-left:3%;
 
@@ -164,43 +235,214 @@
   .formulaire_contact {
     
     right: 11%;
+    text-align:center;
+    position:static;
   }
   
 
 
     
 
+
+
+  
     
+
+
+
+
+  
+
+
+
+ 
+    .ux_design {
+      padding-top: 25px;
+    }
+    
+    
+    .formulaire_contact {
+      right: 14%;
+    }
+
+  }
+  
+
+  
+
+  
+
+
+
+@media screen and (min-width:568px) and (max-width:834px)
+/* Paysage Téléphone*/
+
+{
+  @font-face
+
+  {
+  
+      font-family:"Roboto-Black-Light";
+      src:url("fonts/Roboto-Light.ttf") format("truetype");
+  }
+
+
+/* Webagency.css | file:///C:/Users/Thomas/Desktop/Webagency.css */
+
+body {
+  /* font-family: "Roboto-Black", Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Roboto-Black-Light", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texte_accueil {
+  /* top: 35%; */
+  top: 30%;
+  font-size: 0.7em;
+}
+.bloc_droite {
+
+  /*! padding-left:50%; */
+  padding-right:3%;
+
+
+
+  padding-left: 3%;
+}
+
+
+#services_image
+
+
+  {
+
+    display:none;
+
+  }
+
+
+
+
+
 
 }
 
-@media screen and (min-width:1600px)
+@media screen and (min-width:768px) and (max-width:1023px)
+/* Portrait Tablettes */
+
+
 
 {
 
 
-    .figure1
 
-    {
+  .texte_accueil 
+  
+  {
 
-        width:20%;
-        height:auto;
+  font-size: 0.7em;
 
-    }
+  }
 
-    .texte_figure1
+  .bloc_droite 
+  
+  {
 
-    {
-        
-        height:33%;
+    padding-left:3%; 
 
-    }
+  }
 
-    .tfig1
+  #services_image {
+  
+    float:none;
+    padding-left:0px;
+  }
 
-    {
 
-        top:25%;
 
-    }
 }
+
+@media screen and (min-width:1024px) and (max-width:1112px)
+/* Paysage Tablettes */
+
+{
+
+
+
+  .texte_accueil 
+  
+  {
+
+  font-size: 0.7em;
+
+  }
+
+
+
+.bloc_droite {
+  
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#services_image
+
+{
+
+  float:none;
+  padding-left:0px;
+
+}
+
+
+
+
+}
+
+
+@media screen and (min-width:415px) and (max-width:568px)
+
+{
+
+  
+  @font-face
+
+  {
+  
+      font-family:"Roboto-Black-Light";
+      src:url("fonts/Roboto-Light.ttf") format("truetype");
+  }
+
+
+/* Webagency.css | file:///C:/Users/Thomas/Desktop/Webagency.css */
+
+body {
+  /* font-family: "Roboto-Black", Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Roboto-Black-Light", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+    .texte_accueil 
+    
+    {
+  
+    font-size: 0.7em;
+  
+    }
+  
+    .bloc_droite 
+    
+    {
+  
+      padding-left:3%; 
+  
+    }
+
+   
+  
+    
+  
+  
+  
+  }
+
+
+
