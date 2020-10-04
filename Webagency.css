@@ -1,5 +1,3 @@
-
-
 body
 {
     margin:0px;
@@ -494,6 +492,7 @@ float: left;
     left:37.6%;
     top:72%;
     opacity:0;
+    z-index:-1;
 }
 
 .bouton2_allworks
@@ -549,6 +548,7 @@ float: left;
     color:black;
     opacity:0.43;
     width:100%;
+    display:inline-block;
 }
 
 .lien_allworks
@@ -560,6 +560,7 @@ float: left;
 {
     width:25%;
     position:relative;
+    z-index:1;
 }
 
 .bouton2_creative:hover .fa-caret-down, .bouton2_corporate:hover .fa-caret-down, .bouton2_portfolio:hover .fa-caret-down
@@ -654,7 +655,7 @@ figure img
     font-family:"Roboto-Black";
 }
 
-.input_nom, .input_email, .input_sujet, .textarea_message::placeholder
+.input_nom, .input_email, .input_sujet
 {
     font-weight:normal;
     font-size:1em;
@@ -734,4 +735,3 @@ figure img
 {
     font-weight:bold;
 }
-

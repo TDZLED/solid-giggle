@@ -10,6 +10,12 @@
     font-family:"Roboto-Black-Light";
   }
 
+  .titre_accueil
+  {
+
+  display:inline-block;
+  }
+
   #services_image
   {
     display:none;
@@ -302,7 +308,3 @@ body {
   
   
   
-  
-
-
-
