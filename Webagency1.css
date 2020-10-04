@@ -1,172 +1,119 @@
 @media (max-width:600px) 
-
 {
-
-
   @font-face
-
-  {
-  
-      font-family:"Roboto-Black-Light";
-      src:url("fonts/Roboto-Light.ttf") format("truetype");
-  }
-
-  body
-
-
   {
     font-family:"Roboto-Black-Light";
-    
-
+    src:url("fonts/Roboto-Light.ttf") format("truetype");
+  }
+  body
+  {
+    font-family:"Roboto-Black-Light";
   }
 
   #services_image
-
-
   {
-
     display:none;
-
   }
 
-  .formulaire_contact {
-
-    
+  .formulaire_contact 
+  {
     font-family:"Roboto-Black-Light";
+  }
 
-    
-
-}
-
-
-
-  .bouton_infos {
+  .bouton_infos 
+  {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
   }
 
+  .bouton_infos 
+  {
+    font-weight: normal;
+  }
 
+  .bouton_envoyer 
+  {
+    font-family: "Roboto-Black-Light";
+    font-size: 0.5em;
+  }
 
-.bouton_infos {
-  font-weight: normal;
-}
-
-.bouton_envoyer {
-  font-family: "Roboto-Black-Light";
-  font-size: 0.5em;
-}
-
-
-
-
-  
-
-
-    #logo
-
-    {
-    
+  #logo
+  { 
     height: 30px;
     left: 5%;
     top: 35%
-
-    }
-
-    .menu_haut
-
-    {
-
+  }
+    
+  .menu_haut
+  {
     line-height: 1.5em;
     font-size: 12px;
     display:flex;
     flex-direction: column;
-    justify-content:space-around;
-    
-    }
+    justify-content:space-around;  
+  }
 
-    .bouton_accueil:hover, .bouton_services:hover, .bouton_portfolio:hover, .bouton_contact:hover
+  .bouton_accueil:hover, .bouton_services:hover, .bouton_portfolio:hover, .bouton_contact:hover
+  {
+    border:none;
+  }
 
-    {
+  .bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
+  {
+    border:none;
+  }
 
-        border:none;
+  #image_slider
+  {
+    display: none;
+  }
 
-    }
+  .agence_texte, .agence_texte2
+  {
+    opacity:0.43;
+    color: black;
+  }
 
-    .bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
+  .texte_accueil
+  {
+    top: 50%;
+    left:0;
+    width: 100%;
+    font-size: 0.5em;
+    position:static;
+    text-align:center;
+  }
 
-    {
+  .boutons_slider
+  {
+    display:none;
+  }
 
-        border:none;
+  .menu_projets 
+  {
+    width: 100%;
+  }
 
-    }
-
-    #image_slider
-
-    {
-
-        display: none;
-
-    }
-
-    .agence_texte, .agence_texte2
-
-    {
-
-        opacity:0.43;
-        color: black;
-    }
-
-    .texte_accueil
-
-    {
-
-        top: 50%;
-        left:0;
-        width: 100%;
-        font-size: 0.5em;
-        position:static;
-        text-align:center;
-
-    }
-
-    .boutons_slider
-
-    {
-
-        display:none;
-
-    }
-
-
-/* Webagency.css | file:///C:/Users/Thomas/Desktop/Webagency.css */
-
-.menu_projets {
-  /* width: 380px; */
-  width: 100%;
-}
-
-
-
-
-    .agence_texte, .agence_texte2 {
-      font-size: 1.5em;
-    }
+  .agence_texte, .agence_texte2 
+  {
+    font-size: 1.5em;
+  }
   
-  
-  
-  .SERVICES_Titre, .PROJETS_Titre {
+  .SERVICES_Titre, .PROJETS_Titre 
+  {
     font-size: 1em;
   }
   
-  .text_services, .texte_projets {
+  .text_services, .texte_projets 
+  {
     font-size: 0.8em;
   }
   
-  .texte1, .texte2, .texte3 {
+  .texte1, .texte2, .texte3 
+  {
     font-size: 0.8em;
-    width: 80%;
     padding-left:100px;
   }
 
@@ -175,93 +122,30 @@
     padding-left:100px;
   }
   
-  
-  
-  .bloc_droite {
+  .bloc_droite 
+  {
+    margin-left:5%;
+    margin-right:5%;
     padding-left:0%;
+    padding-right:0px;
+    padding-top:0%;
   }
   
-  
-  .ux_design {
-    
-    padding-left: 5px; 
-  }
-  
-  
-  .ux_design > div:nth-child(2) {
 
-    margin-top: 50px;
-  }
-  
-  
-  .fa-cubes {
-    margin-top: 25px;
-  }
-  
-  
-  .fa-chart-pie {
-    margin-top: 25px;
-  }
-  
-  
-  .seo > div:nth-child(2) {
-    margin-top: 50px;
-  }
-  
-  
-  .fa-chart-line {
-    
-    margin-top: 25px;
-  }
-  
-  
-  .ui_design > div:nth-child(2) {
-    margin-top: 50px;
-  }
-  
-  .ui_design, .seo, .ux_design {
-
-    padding-left:3%;
-
-  }
-
-
-
-
-.WA2 {
+  .WA2 
+  {
     font-size: 0.8em;
   }
   
-  .formulaire_contact {
-    
+  .formulaire_contact 
+  { 
     right: 11%;
     text-align:center;
     position:static;
   }
-  
 
-
-    
-
-
-
-  
-    
-
-
-
-
-  
-
-
-
- 
-    .ux_design {
-      padding-top: 25px;
-    }
-    
-    
-    .formulaire_contact {
+  .formulaire_contact 
+    {
       right: 14%;
     }
 
@@ -274,7 +158,7 @@
 
 
 
-@media screen and (min-width:568px) and (max-width:834px)
+@media screen and (min-width:600px) and (max-width:834px)
 /* Paysage Téléphone*/
 
 {
@@ -299,15 +183,7 @@ body {
   top: 30%;
   font-size: 0.7em;
 }
-.bloc_droite {
 
-  /*! padding-left:50%; */
-  padding-right:3%;
-
-
-
-  padding-left: 3%;
-}
 
 
 #services_image
@@ -317,6 +193,14 @@ body {
 
     display:none;
 
+  }
+
+  .bloc_droite {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0%;
   }
 
 
@@ -343,13 +227,9 @@ body {
 
   }
 
-  .bloc_droite 
+ 
   
-  {
-
-    padding-left:3%; 
-
-  }
+  
 
   #services_image {
   
@@ -357,11 +237,20 @@ body {
     padding-left:0px;
   }
 
+  .bloc_droite
+  {
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:0%;
+    padding-right:0px;
+    padding-top:0%;
+  }
+
 
 
 }
 
-@media screen and (min-width:1024px) and (max-width:1112px)
+@media screen and (min-width:1023px) and (max-width:1220px)
 /* Paysage Tablettes */
 
 {
@@ -378,11 +267,7 @@ body {
 
 
 
-.bloc_droite {
-  
-  padding-left: 3%;
-  padding-right: 3%;
-}
+
 #services_image
 
 {
@@ -392,49 +277,24 @@ body {
 
 }
 
-
-
-
-}
-
-
-@media screen and (min-width:415px) and (max-width:568px)
-
-{
-
-  
-  @font-face
-
+.bloc_droite
   {
-  
-      font-family:"Roboto-Black-Light";
-      src:url("fonts/Roboto-Light.ttf") format("truetype");
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:0%;
+    padding-right:0px;
+    padding-top:0%;
   }
 
 
-/* Webagency.css | file:///C:/Users/Thomas/Desktop/Webagency.css */
 
-body {
-  /* font-family: "Roboto-Black", Verdana, Geneva, Tahoma, sans-serif; */
-  font-family: "Roboto-Black-Light", Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
-    .texte_accueil 
+
+  
     
-    {
-  
-    font-size: 0.7em;
-  
-    }
-  
-    .bloc_droite 
-    
-    {
-  
-      padding-left:3%; 
-  
-    }
 
    
   
@@ -442,7 +302,7 @@ body {
   
   
   
-  }
+  
 
 
 

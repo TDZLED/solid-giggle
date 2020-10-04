@@ -15,7 +15,6 @@ html,body
     padding: 0px;
 }
 
-
 .contenant_projets
 {
 
@@ -24,111 +23,74 @@ html,body
     flex-wrap:wrap;
     justify-content: center;
     margin:auto;
-
-
 }
 
-
-
-
-
 header
-
 {
-
     justify-content: space-around;
     height:100px;
     align-items: center;
     z-index:101;
     background-color: white;
     width:100%;
-    
     display:flex;
-    position:fixed;
-    
-    
-    
+    position:fixed;      
 }
 
 #accueil_diapo
-
 {
-
     width:100%;
-
 }
 
 .conteneur, #image_slider
 {
-
     width:100%;
-
 }
 .bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
-
 {
-
-    border-top : solid 4px transparent;
-
-
+    border-top : solid 3px transparent;
+    display:block;
 }
 
 .lien_accueil_diapo, .lien_services, .lien_projets, .lien_contact
-
 {
-
     color:black;
     text-decoration: none;
     opacity:0.5;
-
+    display:block;
+    width: 75px;
+    text-align: center;       
 }
 
 .bouton_accueil:hover
-
 {
-
-    border-top: solid 4px rgb(70, 146, 177);
-    
-
+    border-top: solid 3px rgb(70, 146, 177);
 }
 
 .lien_accueil_diapo:hover, .lien_services:hover, .lien_projets:hover, .lien_contact:hover
 {
-
  opacity:1;
-
 }
 
 .bouton_services:hover
-
 {
-
-    border-top: solid 4px rgb(70, 146, 177);
-    
-
+    border-top: solid 3px rgb(70, 146, 177);
 }
 
 .bouton_portfolio:hover
-
 {
-
-    border-top: solid 4px rgb(70, 146, 177);
-    
-
+    border-top: solid 3px rgb(70, 146, 177);
 }
 
 .bouton_contact:hover
 {
-    border-top: solid 4px rgb(70, 146, 177);
-    
+    border-top: solid 3px rgb(70, 146, 177); 
 }
 
 a
 {
     text-decoration:none;
 }
-
-
 
 @font-face
 {
@@ -259,21 +221,16 @@ a
 }
 
 .demi_cercle_droite
-
-{
-    
+{   
     width: 30px;
     height: 60px;
     background-color: rgb(51, 51, 50);
     border-top-left-radius: 110px;
     border-bottom-left-radius: 110px; 
-
 }
 
 .fleche_droite
-
 {
-
     height:10px;
     width:10px;
     border-bottom: 3px solid white;
@@ -282,13 +239,10 @@ a
     top:42%;
     right:30%;
     transform:rotate(225deg);
-
 }
 
 .bouton_infos
-
 {
-
     color:white;
     text-decoration: none;
     background-color:rgb(70, 146, 177);
@@ -304,61 +258,37 @@ a
     border-left:none;
     border-top:none;
     border-right:none;
-    
-
 }
 
 .bouton_infos:hover
-
 {
-
     opacity:0.5;
-
 }
 
 
 .titre_accueil
-
 {
-
     color:rgb(70, 146, 177);
     font-weight: 900;
     font-size:1.5em;
-
 }
 
 .WA2
-
 {
-
     opacity:0.43;
     font-family:"Roboto-Medium";
-
 }
 
 .agence_texte
-
 {
-
     font-size:1.5em;
     font-weight: 900;
     font-family:"Roboto-Medium";
-
 }
 
-
-
-
-
-
-
 .centré, .centré1
-
 {
-
     text-align:center;
-
-
 }
 
 
@@ -371,26 +301,18 @@ a
 }
 
 hr
-
 {
-
     width: 70px;
     opacity:0.33;
-
 }
 
 .conteneur_contact
 {
-
     height:700px;
-
-
 }
 
 .google_map
-
 {
-
     height:700px;
     width:100%;
     border-top-width: 0px;
@@ -400,108 +322,71 @@ hr
     border-left-width: 0px;
     border-left-style: solid;
     border-right-width: 0px;
-    border-right-style: solid;
-    
-
+    border-right-style: solid;    
 }
 
 .background_map
-
 {
-
     background-color: rgba(15, 140, 223, 0.2);
     top: 12.5%;
     width: 100%;
     position:absolute;
     height:700px;
     pointer-events: none;
-
-
 }
 
-
-
 .split
-
-{
-
-    
+{   
     display:flex;
     width: 180px;
     margin:auto;
-    
-    
-
 }
 
 .SERVICES_Titre , .PROJETS_Titre
-
 {
-
-font-size: 35px;
-font-weight: bold;
-font-family:"Roboto-Bold";
+    font-size: 35px;
+    font-weight: bold;
+    font-family:"Roboto-Bold";
 }
 
 .text_services , .texte_projets
-
 {
-
     text-align: center;
     opacity: 0.43;
-    
-    
-
 }
 
-
 #services
-
 {
-
     position: relative;
-    
-
 }
 
 #services_image
-
 {
-
     float:left;
     padding-left:100px;
     display:block;
     margin:auto;
-    
-
 }
 
 .bloc_droite
-
 {
-
     padding-left:50%;
     padding-right:100px;
-
-
-
+    padding-top:5%;
+    margin-left:10px;
 }
 
 .fa-chart-line
-
-{
-
-    
+{  
     color: rgb(70, 146, 177);
     font-size:2em;
     border:solid 2px rgb(216, 208, 208);
     border-radius:100%;
     padding:15px;
-    
-
 }
 
-.blue_circle {
+.blue_circle 
+{
     width: 15px;
     height: 15px;
     border-radius: 20px;
@@ -511,109 +396,69 @@ font-family:"Roboto-Bold";
 }
 
 .fa-chart-line,.fa-cubes,.fa-chart-pie, .blue_circle
-
 {
-
-
 float: left;
-
 }
 
 .description1, .description2, .description3
-
 {
-
     padding-left:135px;
     font-weight: bold;
-
 }
 
 .texte1, .texte2, .texte3
-
 {
-
     padding-left:135px;
     opacity:0.5;
-
 }
-
 
 .ui_design
-
 {
-
     padding-top:25px;
-
 }
 
-
 .fa-cubes, .fa-chart-pie
-
 {
-
     color: rgb(70, 146, 177);
     font-size:2em;
     border:solid 2px rgb(216, 208, 208);
     border-radius:100%;
     padding:15px;
-
 }
 
 .description2, .description3
-
 {
-
     margin-top:0px;
-
 }
 
 .seo
-
 {
-
     padding-top:25px;
-
 }
 
 #projets, #services
-
-
 {
-
-
     margin-top:100px;
     width:100%;
-
-
 }
 
 #projets
-
 {
-
-
     background-color: rgb(224, 224, 221);
     padding-top:100px;
     padding-bottom:100px;
-
 }
 
 .menu_projets
-
 {
-
     width:380px;
     text-align:center;
-    margin:auto auto 40px auto;
-    
+    margin:auto auto 40px auto;   
     height:50px;
-
 }
 
 .menu2
-
 {
-
     display:flex;
     padding-left:0px;
     list-style-type:none;
@@ -627,42 +472,32 @@ float: left;
 }
 
 .triangle1
-
 {
-
     display:block;
     justify-content:space-around;
     opacity:0;
     margin-top:-11.5px;
-
 }
 
 .lien_par_défaut
-
 {
-
     margin-top:-10px;
     opacity:1;
-
 }
 
 
 .fa-caret-down
-
 {
-
     color:rgb(57, 124, 157);
     font-size:35px;
     position:absolute;
     left:37.6%;
     top:72%;
     opacity:0;
-
 }
 
 .bouton2_allworks
 {
-
     background-color: rgb(70, 146, 177);
     border-bottom:3px solid rgb(57, 124, 157);
     border-radius:4px 0px 0px 4px;
@@ -671,59 +506,42 @@ float: left;
     border-right:none;
 }
 
+.menu2 li:hover a
+{
+    color:white;
+}
+
 
 
 .bouton2_creative:hover, .bouton2_corporate:hover
-
 {
-
-background-color: rgb(70, 146, 177);
-border-bottom:3px solid rgb(57, 124, 157);
+    background-color: rgb(70, 146, 177);
+    border-bottom:3px solid rgb(57, 124, 157);
 }
 
 .bouton2_portfolio:hover 
-
 {
-
     background-color: rgb(70, 146, 177);
     border-bottom:3px solid rgb(57, 124, 157);
     border-radius:0px 4px 4px 0px;    
-
 }
 
 
 .bouton2_creative:hover > .bouton2_allworks
-
 {
-
     background-color:rgba(255,255,255,0);
-
 }
 
 .lien_creative:hover, .lien_corporate:hover, .lien_portfolio1:hover
-
 {
-
     color:white;
-
 }
 
 .lien_allworks
-
 {
-
     color:white;
     opacity:0.43;
-
 }
-
-
-.bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
-{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-  
 
 .lien_creative, .lien_corporate, .lien_portfolio1, .lien_allworks
 {
@@ -836,7 +654,6 @@ figure img
     font-family:"Roboto-Black";
 }
 
-
 .input_nom, .input_email, .input_sujet, .textarea_message::placeholder
 {
     font-weight:normal;
@@ -844,8 +661,6 @@ figure img
     border:1px solid grey;
     border-radius:5px;
 }
-
-
 
 .input_nom, .input_email, .input_sujet, .textarea_message
 {
@@ -859,13 +674,13 @@ figure img
 {
     height:150px;
     font-size:1em;
+    max-height: 165px;
 }
 
 .input_nom:required
 {
     border-color:grey;
 }
-
 
 .bouton_envoyer
 {
