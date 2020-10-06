@@ -10,6 +10,20 @@
     font-family:"Roboto-Black-Light";
   }
 
+  header
+  {
+    display:block;
+    text-align: center;
+    height:106px;
+    position:fixed;
+  }
+
+
+.lien_accueil_diapo, .lien_services, .lien_projets, .lien_contact {
+  font-size: 15px;
+}
+
+
   .titre_accueil
   {
 
@@ -21,10 +35,7 @@
     display:none;
   }
 
-  .formulaire_contact 
-  {
-    font-family:"Roboto-Black-Light";
-  }
+  
 
   .bouton_infos 
   {
@@ -36,14 +47,18 @@
 
   .bouton_infos 
   {
-    font-weight: normal;
+  font-size:1.5em; 
+  font-family: "Roboto-Black-Light";
+   
   }
 
   .bouton_envoyer 
   {
     font-family: "Roboto-Black-Light";
-    font-size: 0.5em;
+    
   }
+
+
 
   #logo
   { 
@@ -54,11 +69,10 @@
     
   .menu_haut
   {
-    line-height: 1.5em;
     font-size: 12px;
     display:flex;
-    flex-direction: column;
-    justify-content:space-around;  
+    justify-content:space-around; 
+    height:100% 
   }
 
   .bouton_accueil:hover, .bouton_services:hover, .bouton_portfolio:hover, .bouton_contact:hover
@@ -148,12 +162,20 @@
     right: 11%;
     text-align:center;
     position:static;
+    padding-left:0px;
+    padding-right:0px;
   }
 
   .formulaire_contact 
     {
       right: 14%;
     }
+
+  .contact_info
+  {
+    font-size:2em;
+    font-family:"Roboto-Bold";
+  }
 
   }
   
