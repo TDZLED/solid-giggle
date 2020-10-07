@@ -765,3 +765,9 @@ figure img
 {
     font-weight:bold;
 }
+
+em, strong
+{
+    font-weight:normal;
+    font-style:normal;
+}
