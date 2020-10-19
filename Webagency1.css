@@ -3,21 +3,21 @@
 {
   @font-face
   {
-    font-family:"Roboto-Black-Light";
-    src:url("fonts/Roboto-Light.ttf") format("truetype");
+    font-family: "Roboto-Black-Light";
+    src: url("fonts/Roboto-Light.ttf") format("truetype");
   }
 
   body
   {
-    font-family:"Roboto-Black-Light";
+    font-family: "Roboto-Black-Light";
   }
 
   header
   {
-    display:block;
+    display: block;
     text-align: center;
-    height:106px;
-    position:fixed;
+    height: 106px;
+    position: fixed;
   }
 
   .lien_accueil_diapo, .lien_services, .lien_projets, .lien_contact 
@@ -27,12 +27,12 @@
 
   .titre_accueil
   {
-    display:inline-block;
+    display: inline-block;
   }
 
-  #services_image
+  #services_image, .boutons_slider, #services_image, #image_slider
   {
-    display:none;
+    display: none;
   }
 
   .bouton_infos 
@@ -45,7 +45,7 @@
 
   .bouton_infos 
   {
-    font-size:1.5em; 
+    font-size: 1.5em; 
     font-family: "Roboto-Black-Light"; 
   }
 
@@ -64,24 +64,14 @@
   .menu_haut
   {
     font-size: 12px;
-    display:flex;
-    justify-content:space-around; 
-    height:100% 
+    display: flex;
+    justify-content: space-around; 
+    height: 100%;
   }
 
-  .bouton_accueil:hover, .bouton_services:hover, .bouton_portfolio:hover, .bouton_contact:hover
+  .bouton_accueil:hover, .bouton_services:hover, .bouton_portfolio:hover, .bouton_contact:hover, .bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
   {
     border:none;
-  }
-
-  .bouton_accueil, .bouton_services, .bouton_portfolio, .bouton_contact
-  {
-    border:none;
-  }
-
-  #image_slider
-  {
-    display: none;
   }
 
   .agence_texte, .agence_texte2
@@ -93,16 +83,11 @@
   .texte_accueil
   {
     top: 50%;
-    left:0;
+    left: 0;
     width: 100%;
     font-size: 0.5em;
-    position:static;
-    text-align:center;
-  }
-
-  .boutons_slider
-  {
-    display:none;
+    position: static;
+    text-align: center;
   }
 
   .menu_projets 
@@ -115,12 +100,12 @@
     font-size: 1.5em;
   }
   
-  .SERVICES_Titre, .PROJETS_Titre 
+  .SERVICES_Titre, .projets_titre 
   {
     font-size: 1em;
   }
   
-  .text_services, .texte_projets 
+  .texte_services, .texte_projets 
   {
     font-size: 0.8em;
   }
@@ -128,24 +113,24 @@
   .texte1, .texte2, .texte3 
   {
     font-size: 13px;
-    padding-left:100px;
+    padding-left: 100px;
   }
 
   .description1, .description2, .description3
   {
-    padding-left:100px;
+    padding-left: 100px;
   }
   
   .bloc_droite 
   {
-    margin-left:5%;
-    margin-right:5%;
-    padding-left:0%;
-    padding-right:0px;
-    padding-top:0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0%;
   }
   
-  .WA2 
+  .wa
   {
     font-size: 0.8em;
   }
@@ -153,10 +138,10 @@
   .formulaire_contact 
   { 
     right: 11%;
-    text-align:center;
-    position:static;
-    padding-left:0px;
-    padding-right:0px;
+    text-align: center;
+    position: static;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .formulaire_contact 
@@ -166,8 +151,8 @@
 
   .contact_info
   {
-    font-size:2em;
-    font-family:"Roboto-Bold";
+    font-size: 2em;
+    font-family: "Roboto-Bold";
   }
 
 }
@@ -177,8 +162,8 @@
 {
   @font-face
   {
-      font-family:"Roboto-Black-Light";
-      src:url("fonts/Roboto-Light.ttf") format("truetype");
+      font-family: "Roboto-Black-Light";
+      src: url("fonts/Roboto-Light.ttf") format("truetype");
   }
 
   body 
@@ -190,11 +175,6 @@
   {
     top: 30%;
     font-size: 0.7em;
-  }
-
-  #services_image
-  {
-    display:none;
   }
 
   .bloc_droite 
@@ -219,16 +199,16 @@
   #services_image 
   {
     float:none;
-    padding-left:0px;
+    padding-left: 0px;
   }
 
   .bloc_droite
   {
-    margin-left:5%;
-    margin-right:5%;
-    padding-left:0%;
-    padding-right:0px;
-    padding-top:0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0%;
   }
 
 }
@@ -244,16 +224,16 @@
   #services_image
   {
     float:none;
-    padding-left:0px;
+    padding-left: 0px;
   }
 
   .bloc_droite
   {
-    margin-left:5%;
-    margin-right:5%;
-    padding-left:0%;
-    padding-right:0px;
-    padding-top:0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0%;
   }
 
 }
